@@ -1,3 +1,9 @@
+#!/bin/sh
+
+## Author - Sumit Nagal 
+## Email - sumit_nagal@intuit.com
+## Type - DB restore of AWS RDS
+
 export PATH=/home/app/.local/bin:$PATH
 
 # download the aws cred and restore in below file

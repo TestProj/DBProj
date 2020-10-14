@@ -1,4 +1,8 @@
+#!/bin/sh
 
+## Author - Sumit Nagal 
+## Email - sumit_nagal@intuit.com
+## Type - DB restore of AWS RDS
 
 export PATH=/home/app/.local/bin:$PATH
 
@@ -8,6 +12,8 @@ set +x
 export DEBUG=''
 export WAIT=90s
 
+
+# download the aws cred and restore in below file
 source ./aws_cred.txt
 
 aws configure set aws_access_key_id ${aws_access_key_id}
